@@ -1,0 +1,1 @@
+# gabor-management-case-study

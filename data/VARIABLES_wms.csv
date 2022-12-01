@@ -1,0 +1,47 @@
+﻿variable,type,information
+firmid,numeric,Unique firm ID
+wave,numeric,Wave when interview was conducted
+country,string,Country in which plant is located
+management,numeric,Average of all management questions
+operations,numeric,Average of lean1 & lean2
+monitor,numeric,Average of perf1 to perf5
+people,numeric,Average of talent1 to talent6
+target,numeric,Average of perf6 to perf10
+cty,string,2-letter country code
+i_comptenure,numeric,Manager's tenure in company
+lean1,numeric,Introduction to Lean (Modern) Manufacturing
+lean2,numeric,Rationale for Lean (Modern) Manufacturing
+perf1,numeric,Process Documentation
+perf2,numeric,Performance Tracking
+perf3,numeric,Performance Review
+perf4,numeric,Performance Dialogue
+perf5,numeric,Consequence Management
+perf6,numeric,Type of Targets
+perf7,numeric,Interconnection of Goals
+perf8,numeric,Time Horizon
+perf9,numeric,Goals are Stretching
+perf10,numeric,Clarity of Goals and Measurement
+talent1,numeric,Instilling a Talent Mindset
+talent2,numeric,Building a High-Performance Culture
+talent3,numeric,Making Room for Talent
+talent4,numeric,Developing Talent
+talent5,numeric,Creating a Distinctive EVP
+talent6,numeric,Retaining Talent
+emp_firm,numeric,No. of firm employees as declared in interview
+competition,string,Competition
+export,numeric,% of production exported
+ownership,string,Who owns the firm?
+mne_cty,string,Country of multinational
+degree_m,binary,% of managers with a college degree
+degree_nm,numeric,% of non-managers with a college degree
+duration,numeric,Interview's duration
+i_seniority,binary,Manager's seniority in company
+degree_t,numeric,% of all workforce with a college degree
+dd,binary,Day of the month interview in which full or major part of interview was conducted
+hour,binary,Hour of the day in which interview was started
+reliability,binary,Reliability measure = i_knowledge + i_willingness score
+lb_employinde,numeric,WB: Rigidity of employment index (0-100)
+pppgdp,numeric,IMF: GDP based on PPP valuation of cty GDP (Current international $ - Billions)
+mne_d,binary,= 1 if domestic MNE
+mne_f,binary,= 1 if foreign MNE
+sic,numeric,Most recent industry code available for the firm
